@@ -9,3 +9,147 @@
 .best-employ a.more i{
     padding-right: 5px;
 }
+.form-side{
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+
+}
+.form-side .inner-form{
+    background: #f2f2f2;
+    padding: 15px 30px;
+}
+.form-side input.form-control,
+.form-side textarea.form-control
+{
+    box-shadow: none;
+    border: 1px solid #c7c8cb;
+}
+.form-side label{
+    font-size: 14px;
+    color: #2caed6;
+    font-weight: normal;
+}
+.form-side p{
+    font-size: 14px;
+    color: #545665;
+    padding-bottom: 15px;
+}
+.form-side p.info-form{
+    font-size: 14px;
+    color: #292936;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.form-side p.error-message{
+    font-size: 11px;
+    color: #ff1400;
+}
+.form-side span.error-x{
+    float: right;
+    display: block;
+    margin-top: 3px;
+    width: 10px;
+    height: 10px;
+    background: url("../error.png") no-repeat center center;
+    
+}
+.form-side .capchea{
+    border-radius: 3px;
+    background-color: #cbe5f7;
+    text-align: center;
+    font-size: 30px;
+    color: #292936;
+    height: 58px;
+    padding-top: 18px;
+    background-image: url("../capchea.png");
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bootstrap-select.btn-group .btn .caret{
+    top: 1px;
+    right: 0px;
+    height: 33px;
+    border: 0;
+    width: 33px;
+    display: block;
+    background: url("../button-select.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.bootstrap-select.btn-group .dropdown-menu li a:hover,
+.bootstrap-select.btn-group .dropdown-menu li a:focus,
+.bootstrap-select.btn-group .dropdown-menu li.selected a
+{
+    background-color: #cbe5f7;
+    border-radius: 3px;
+}
+.bootstrap-select.btn-group .dropdown-menu li {
+    padding:  0 15px;
+}
+.datetimepicker .input-group-addon{
+    background-color: #fff;
+    border-left: 0;
+    color: #bbb;
+    box-shadow: none;
+}
+.form-group .datetimepicker input.form-control{
+    border-right: 0;
+}
+.form-side .button-side .btn-submit{
+    background: rgb(43,169,211); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(43,169,211,1) 0%, rgba(29,95,155,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,169,211,1)), color-stop(100%,rgba(29,95,155,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(43,169,211,1) 0%,rgba(29,95,155,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(43,169,211,1) 0%,rgba(29,95,155,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(43,169,211,1) 0%,rgba(29,95,155,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(43,169,211,1) 0%,rgba(29,95,155,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ba9d3', endColorstr='#1d5f9b',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: none;
+    margin: 20px 10px;
+}
+.form-side .button-side .btn-submit:hover{
+    background: rgb(29,95,155); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(29,95,155,1) 0%, rgba(43,169,211,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(29,95,155,1)), color-stop(100%,rgba(43,169,211,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(29,95,155,1) 0%,rgba(43,169,211,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(29,95,155,1) 0%,rgba(43,169,211,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(29,95,155,1) 0%,rgba(43,169,211,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(29,95,155,1) 0%,rgba(43,169,211,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d5f9b', endColorstr='#2ba9d3',GradientType=0 ); /* IE6-9 */
+}
+.form-side .button-side .btn-submit i{
+    margin-right: 10px;
+}
+.form-side .button-side .btn-reset{
+    border: 1px solid #babbbb;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(184,185,185,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(184,185,185,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(184,185,185,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(184,185,185,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(184,185,185,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(184,185,185,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b8b9b9',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    box-shadow: none;
+    margin: 20px 10px;
+}
+.form-side .button-side .btn-reset:hover{
+    background: rgb(184,185,185); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(184,185,185,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(184,185,185,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(184,185,185,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(184,185,185,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(184,185,185,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(184,185,185,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8b9b9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
