@@ -96,7 +96,7 @@
 .form-group .datetimepicker input.form-control{
     border-right: 0;
 }
-.form-side .button-side .btn-submit{
+.btn-submit{
     background: rgb(43,169,211); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(43,169,211,1) 0%, rgba(29,95,155,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,169,211,1)), color-stop(100%,rgba(29,95,155,1))); /* Chrome,Safari4+ */
@@ -112,7 +112,7 @@
     box-shadow: none;
     margin: 20px 10px;
 }
-.form-side .button-side .btn-submit:hover{
+ .btn-submit:hover{
     background: rgb(29,95,155); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(29,95,155,1) 0%, rgba(43,169,211,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(29,95,155,1)), color-stop(100%,rgba(43,169,211,1))); /* Chrome,Safari4+ */
@@ -122,7 +122,7 @@
     background: linear-gradient(to bottom, rgba(29,95,155,1) 0%,rgba(43,169,211,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d5f9b', endColorstr='#2ba9d3',GradientType=0 ); /* IE6-9 */
 }
-.form-side .button-side .btn-submit i{
+ .btn-submit i{
     margin-right: 10px;
 }
 .form-side .button-side .btn-reset{
@@ -152,4 +152,236 @@
     background: -ms-linear-gradient(top, rgba(184,185,185,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
     background: linear-gradient(to bottom, rgba(184,185,185,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8b9b9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.mark-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mark-list li{
+    display: block;
+    padding: 5px 0 ;
+}
+.mark-list li a{
+    color: #292936;
+    font-size: 12px;
+}
+.mark-list li a:hover{
+    color: #068fef;
+    text-decoration: underline;
+}
+.mark-list li a .img-side{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 30px;
+    text-align: center;
+}
+.mark-list li a .img-side img{
+    display: initial;
+}
+.irs-line-mid,
+.irs-line-left,
+.irs-line-right,
+.irs-bar,
+.irs-bar-edge,
+.irs-slider {
+    background: url(../img/sprite-skin-peugeot.png) repeat-x;
+}
+
+.irs {
+    height: 40px;
+}
+.irs-with-grid {
+    height: 60px;
+}
+.irs-line {
+    height: 14px; top: 25px;
+}
+    .irs-line-left {
+        height: 14px;
+        background-position: 0 -18px;
+    }
+    .irs-line-mid {
+        height: 14px;
+        background-position: 0 0;
+    }
+    .irs-line-right {
+        height: 14px;
+        background-position: 100% -18px;
+    }
+
+.irs-bar {
+    height: 14px; top: 26px;
+    background-position: 0 -36px;
+}
+    .irs-bar-edge {
+        top: 25px;
+        height: 25px; width: 16px;
+        background-position: 0 -50px;
+    }
+
+.irs-slider {
+    width: 16px; height: 25px;
+    top: 21px;
+    background-position: 0 -66px;
+}
+.irs-min, .irs-max {
+    color: #545663;
+    font-size: 11px; line-height: 1.333;
+    text-shadow: none;
+    top: 0; padding: 1px 3px;
+    background: #cbe5f7;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.lt-ie9 .irs-min, .lt-ie9 .irs-max {
+    background: #cbe5f7;
+}
+
+.irs-from, .irs-to, .irs-single {
+    color: #545663;
+    font-size: 11px; line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 5px;
+    background: rgba(255,255,255,0.8);
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.lt-ie9 .irs-from, .lt-ie9 .irs-to, .lt-ie9 .irs-single {
+    background: #d8dff3;
+}
+
+.irs-grid-pol {
+    background: #777;
+}
+.irs-grid-text {
+    color: #068fef;
+}
+
+.irs-disabled {
+}
+
+h3.title-filter{
+    color: #068fef;
+    font-size: 19px;
+    font-weight: normal;
+    text-align: center;
+    margin: 10px 0;
+}
+.side-content{
+    margin-top: 20px;
+}
+.used-car{
+    margin-bottom: 30px;
+}
+.used-car p.name{
+    font-size: 14px;
+    text-align: center;
+    color: #292936;
+    margin: 0;
+}
+.used-car p.price{
+    font-size: 18px;
+    text-align: center;
+    color: #45a0f1;
+    margin: 0;
+}
+.used-car p.price span{
+    font-size: 14px;
+}
+.list-cars{
+    border-radius: 5px;
+    border: 1px solid #e4e4e4;
+    padding: 10px;
+}
+.used-car .img-car a{
+    display: block;
+    border: 1px solid transparent;
+    text-align: center;
+    height: 140px;
+}
+.used-car .img-car a:hover{
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+.used-car .img-car a img{
+    max-width: 100%;
+    max-height: 100%;
+    display: initial;
+}
+.left-main-content-wrap .divider{
+    margin: 0;
+}
+div.price{
+    font-weight: bold;
+    color: #545663;
+    font-size: 30px;
+    padding: 25px 15px;
+    background-color: #cbe5f7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div.price span{
+    font-weight: normal;
+    
+    font-size: 19px;
+}
+.contact-data{
+    margin-top: 15px;
+}
+.contact-data p{
+    color: #292936;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.contact-data p i,
+.contact-data p a i{
+    color: #84858a;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.contact-data p a{
+    color: #068fef;
+}
+.list-cars .description{
+    margin-bottom: 15px;
+}
+.list-cars .description h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #292936;
+}
+.list-cars .description p{
+    font-size: 14px;
+    color: #292936;
+}
+.list-descr{
+    list-style: square;
+    padding: 0;
+    margin: 0;
+}
+.list-descr li{
+    padding:  5px 0;
+    color: #068fef;
+}
+.list-descr li span{
+    color: #292936;
+}
+.slider-side ul.bxslider li img{
+    width: 100%;
+}
+.slider-side #bx-pager {
+    text-align: center;
+}
+.slider-side a {
+    height: 115px;
+    margin-right: 10px;
+    display: inline-block;        
+}
+.slider-side a img{
+    height: 100%;
 }

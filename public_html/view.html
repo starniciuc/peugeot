@@ -12,9 +12,8 @@
                 <link href="http://www.peugeot-krasnoyarsk.ru/bitrix/cache/css/s1/main_template/template_83ea97e15c4fd8330de0c97700dfbdf0/template_83ea97e15c4fd8330de0c97700dfbdf0_712b4c6837d678f0aa5caa8dddec3651.css?141224518442819" type="text/css"  data-template-style="true"  rel="stylesheet" />
                 <link href="css/bootstrap-select.min.css" rel="stylesheet" type="text/css"/>
                 <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+                <link href="css/ion.rangeSlider.css" rel="stylesheet" type="text/css"/>
                 <link href="css/style.css" rel="stylesheet" type="text/css"/>
-
-
 
                 <link href="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/assets/fonts/peugeot.css" rel="stylesheet">
                     <link href="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/assets/iconfont/style.css" rel="stylesheet">
@@ -300,7 +299,77 @@
                                                 <div class="row">
                                                     <div class="col-md-8 col-sm-6 left-main-content-wrap">
                                                         <h1 class="header-tag header-text">
-                                                            Запись на сервис
+                                                            Peugeot 1007
+                                                        </h1>
+                                                        <p>Автомобиль находится в автоцентре Peugeot в Красноярске</p>
+                                                        <div class="list-cars slider-side">
+                                                            <ul class="bxslider">
+                                                                <li><img src="img/slide.png" /></li>
+                                                                <li><img src="img/slide1.png" /></li>
+                                                                <li><img src="img/slide2.png" /></li>
+                                                                <li><img src="img/slider3.png" /></li>
+                                                            </ul>
+
+                                                            <div id="bx-pager">
+                                                                <a data-slide-index="0" href=""><img src="img/slide.png" /></a>
+                                                                <a data-slide-index="1" href=""><img src="img/slide1.png" /></a>
+                                                                <a data-slide-index="2" href=""><img src="img/slide2.png" /></a>
+                                                                <a data-slide-index="3" href=""><img src="img/slider3.png" /></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="divider img-wrap">
+                                                            <figure class="figure-styled">
+                                                                <img src="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/images/divider_service_about.png" alt="" title="" />
+                                                            </figure>
+                                                        </div>
+
+                                                        <h1 class="header-tag header-text">
+                                                            Основная информация
+                                                        </h1>
+                                                        <div class="list-cars">
+                                                            <div class="col-md-6">
+                                                                <ul class="list-descr">
+                                                                    <li>Пробег: <span>78552</span></li>
+                                                                    <li>Тип кузова:</span> <span>Хэтчбэк</span></li>
+                                                                    <li>Год: <span>2006</span></li>
+                                                                    <li>Тип двигателя: <span>Бензин</span></li>
+                                                                    <li>Объем двигателя: <span>1360</span></li>
+                                                                    <li>Гарантия: <span>3 года</span></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <ul class="list-descr">
+                                                                    <li>Мощность двигателя: <span>73</span></li>
+                                                                    <li>Тип КПП: <span>Робот</span></li>
+                                                                    <li>Привод: <span>Передний</span></li>
+                                                                    <li>В эксплуатации с:</span> <span>14 ноября 2006</span></li>
+                                                                    <li>Производство:  <span>Франция</span></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="row description">
+                                                                <div class="col-md-12">
+                                                                    <h4>Дополнительное описание</h4>
+                                                                    <p>Компания Major совместно с рядом ведущих отечественных и западных банков предлагает Вам приобрести любой автомибиль, представленный в нашем дилерстве, в кредит. Это только некоторые преимущества нашей кредитной программы, которыми мы Вам любезно предлагаем воспользоваться:</p>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="divider img-wrap">
+                                                                <figure class="figure-styled">
+                                                                    <img src="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/images/divider_service_about.png" alt="" title="" />
+                                                                </figure>
+                                                            </div>
+                                                            <div class="row contact-data">
+                                                                <div class="col-md-6">
+                                                                    <p><i class="fa fa-phone"></i> +7 (391) 299-76-00</p>
+                                                                    <p><a href="#" class="mail"><i class="fa fa-envelope"></i>Связаться с этим дилером</a></p>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p><i class="fa fa-clock-o"></i> Вт-Сб: 09.00-19.00</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <h1 class="header-tag header-text">
+                                                            ОТПРАВЬТЕ ЗАЯВКУ
                                                         </h1>
                                                         <div class="form-side">
                                                             <form action="" method="POST" id="subscribeForm">
@@ -308,53 +377,25 @@
                                                                     <div class="form-group">
                                                                         <label>ФИО*</label><span class="error-x" style="display: none;"></span>
                                                                         <input type="text" class="form-control" name="FIO">
-                                                                        <p class="error-message"></p>
+                                                                            <p class="error-message"></p>
                                                                     </div>
                                                                     <div class="form-group">
                                                                         <div class="row">
                                                                             <div class="col-sm-6">
                                                                                 <label>Телефон*	</label><span class="error-x" style="display: none;"></span>
                                                                                 <input type="text" class="form-control" name="phone">
-                                                                                <p class="error-message"></p>
+                                                                                    <p class="error-message"></p>
                                                                             </div>
                                                                             <div class="col-sm-6">
                                                                                 <label>Email</label><span class="error-x" style="display: none;"></span>
                                                                                 <input type="text" class="form-control" name="email">
-                                                                                <p class="error-message"></p>
+                                                                                    <p class="error-message"></p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="form-group">
-                                                                        <div class="row">
-                                                                            <div class="col-sm-6">
-                                                                                <label>Удобная дата*</label><span class="error-x" style="display: none;"></span>
-                                                                                <div class="datetimepicker input-group date mb-lg" data-date-format="DD/MM/YYYY" data-pick-time="false">
-                                                                                    <input type="text" class="form-control">
-                                                                                        <span class="input-group-addon">
-                                                                                            <span class="fa fa-calendar"></span>
-                                                                                        </span>
-                                                                                </div>
-                                                                                <p class="error-message"></p>
-                                                                            </div>
-                                                                            <div class="col-sm-6">
-                                                                                <label>Модель авто*</label><span class="error-x" style="display: none;"></span>
-                                                                                <select class="selectpicker form-control" >
-                                                                                    <option>Peugeot 107</option>
-                                                                                    <option>Peugeot 208</option>
-                                                                                    <option>Peugeot 301</option>
-                                                                                    <option>Новый Peugeot 308</option>
-                                                                                    <option>Peugeot 2008</option>
-                                                                                    <option>Peugeot 3008</option>
-                                                                                    <option>Peugeot RCZ</option>
-                                                                                    <option>Peugeot 408</option>
-                                                                                </select>
-                                                                                <p class="error-message"></p>
-                                                                            </div>
-                                                                        </div>
 
-                                                                    </div>
                                                                     <div class="form-group">
-                                                                        <label>Описание необходимых работ</label>
+                                                                        <label>Дополнительная информация	</label>
                                                                         <textarea class="form-control"></textarea>
                                                                     </div>
                                                                     <p>Защита от автоматического заполнения</p>
@@ -363,10 +404,10 @@
                                                                             <div class="col-sm-4">
                                                                                 <label>Введите символы с картинки*</label><span class="error-x" style="display: none;"></span>
                                                                                 <input type="text" class="form-control">
-                                                                                <p class="error-message"></p>
+                                                                                    <p class="error-message"></p>
                                                                             </div>
                                                                             <div class="col-md-3">
-                                                                                
+
                                                                                 <div class="capchea">
                                                                                     TY74o3
                                                                                 </div>
@@ -377,7 +418,6 @@
                                                                 </div>
                                                                 <p class="info-form">* - обязательные поля</p>
                                                                 <div class="button-side text-center">
-                                                                    <button class="btn btn-reset" type="reset">Сбросить</button>
                                                                     <button class="btn btn-submit" type="submit"><i class="fa fa-play"></i>Отправить</button>
                                                                 </div>
                                                             </form>
@@ -389,53 +429,32 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4 col-sm-6 side-content">
-                                                        <h2 class="header-tag header-text">
-                                                            Лучший работник
-                                                        </h2>
-                                                        <div class="news-wrap">
-                                                            <div id="bx_3485106786_261">
-                                                                <div class="news-item container-fluid best-employ">
-                                                                    <div class="row">
-                                                                        <div class="news-img col-md-12">
-                                                                            <div class="img-wrap">
-                                                                                <figure class="figure-styled">
-                                                                                    <img src="empl.png" alt="Лопатин Денис" />
-                                                                                </figure>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="text-styled col-md-12">
-                                                                            <h4 class="header-text">Лопатин Денис</h4>
-                                                                            <p class="inner-text">Лучший продавец автомобилей по итогу месяца. Обратитесь за консультацией к лучшему!</p>
-                                                                            <a href = "#" class="more-link more"><i class="fa fa-envelope-o"></i>dslopatin@medved-sever.ru</a>
-                                                                        </div>
-                                                                    </div><!--end row-->
-                                                                </div>
-                                                            </div>
+                                                        <div class="price">
+                                                            199 000 <span>руб.</span>
                                                         </div>
-                                                        <h2 class="header-tag header-text">
-                                                            Новости
-                                                        </h2>
                                                         <div class="news-wrap">
-                                                            <div id="bx_3485106786_261">
+                                                            <div>
                                                                 <div class="news-item container-fluid">
                                                                     <div class="row">
-                                                                        <div class="news-img col-md-12">
-                                                                            <div class="img-wrap">
-                                                                                <figure class="figure-styled">
-                                                                                    <img src="http://www.peugeot-krasnoyarsk.ru/upload/iblock/d4b/avto_kvest_gl.jpg" width = "353" height = "178.30716723549" alt="20 сентября прошел ежегодный автоквест!" title="20 сентября прошел ежегодный автоквест!" />
-                                                                                </figure>
-                                                                            </div>
+                                                                        <div class="col-md-6">
+                                                                            <ul class="mark-list">
+                                                                                <li><a href="#"><span class="img-side"><img src="img/hyundai.png" alt="hyundai"></span>Hyundai Solaris</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/kia.png" alt="kia"></span>Kia ceed</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/lada.png" alt="lada"></span>Lada kalina</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/lada.png" alt="lada"></span>Lada kalina белая</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/mitsi.png" alt="Mitsubishi"></span>Mitsubishi ASX</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/nissan.png" alt="Nissan"></span>Nissan tida</a></li>
+                                                                            </ul>
                                                                         </div>
-                                                                        <div class="text-styled col-md-12">
-                                                                            <h4 class="header-text">
-                                                                                20 сентября прошел ежегодный автоквест!					</h4>
-                                                                            <p class="date">
-                                                                            </p>
-                                                                            <p class="inner-text">
-                                                                                20 сентября в честь дня рождения нашего дилерского центра, мы провели традиционный ежегодный автоквест!					</p>
-                                                                            <a href = "/o-kompanii/novosti/20-sentyabrya-proshel-ezhegodnyy-avtokvest/" class="more-link more">
-                                                                                Подробнее
-                                                                            </a>
+                                                                        <div class="col-md-6">
+                                                                            <ul class="mark-list">
+                                                                                <li><a href="#"><span class="img-side"><img src="img/opel.png" alt="Opel"></span>Opel Antara</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/opel.png" alt="Opel"></span>Opel Insigma</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/peugeot.png" alt="peugeot"></span>Pegeot 308</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/peugeot.png" alt="peugeot"></span>Pegeot 408</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/renault.png" alt="renault"></span>Renault Logan</a></li>
+                                                                                <li><a href="#"><span class="img-side"><img src="img/skoda.png" alt="skoda"></span>Skoda Yeti</a></li>
+                                                                            </ul>
                                                                         </div>
                                                                     </div><!--end row-->
                                                                 </div>
@@ -445,51 +464,89 @@
                                                                     </figure>
                                                                 </div>
                                                             </div>
-                                                            <div id="bx_3485106786_260">
-                                                                <div class="news-item container-fluid">
-                                                                    <div class="row">
-                                                                        <div class="news-img col-md-12">
-                                                                            <div class="img-wrap">
-                                                                                <figure class="figure-styled">
-                                                                                    <img src="http://www.peugeot-krasnoyarsk.ru/upload/iblock/4c1/start_prodaj_novogo_pejo_gl.png" width = "353" height = "177.63870967742" alt="Старт продаж нового PEUGEOT 308" title="Старт продаж нового PEUGEOT 308" />
-                                                                                </figure>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="text-styled col-md-12">
-                                                                            <h4 class="header-text">Старт продаж нового PEUGEOT 308</h4>
-                                                                            <p class="date"></p>
-                                                                            <p class="inner-text">Компания PEUGEOT Россия объявляет о старте продаж PEUGEOT 308 в России с 16&nbsp;&nbsp;октября.</p>
-                                                                            <a href = "/o-kompanii/novosti/start-prodazh-novogo-peugeot-308/" class="more-link more">Подробнее</a>
-                                                                        </div>
-                                                                    </div><!--end row-->
-                                                                </div>
-                                                                <div class="divider img-wrap">
-                                                                    <figure class="figure-styled">
-                                                                        <img src="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/images/divider_service_about.png" alt="" title="" />
-                                                                    </figure>
-                                                                </div>
-                                                            </div>
-                                                            <div id="bx_3485106786_259">
-                                                                <div class="news-item container-fluid">
-                                                                    <div class="row">
-                                                                        <div class="news-img col-md-12">
-                                                                            <div class="img-wrap">
-                                                                                <figure class="figure-styled">
 
-                                                                                    <img src="http://www.peugeot-krasnoyarsk.ru/upload/iblock/0b4/koncept_art_pejo.png" width = "353" height = "178.30716723549" alt="Концепт-кар PEUGEOT Quartz: исключительный кроссовер для острых ощущений" title="Концепт-кар PEUGEOT Quartz: исключительный кроссовер для острых ощущений" />
-                                                                                </figure>
-                                                                            </div>
+                                                            <div>
+                                                                <div class="news-item container-fluid">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <h3 class="title-filter">Стоимость: </h3>
                                                                         </div>
-                                                                        <div class="text-styled col-md-12">
-                                                                            <h4 class="header-text">
-                                                                                Концепт-кар PEUGEOT Quartz: исключительный кроссовер для острых ощущений					</h4>
-                                                                            <p class="date">
-                                                                            </p>
-                                                                            <p class="inner-text">
-                                                                                PEUGEOT продолжает уверенно завоевывать лидерство в сегменте кроссоверов, на который французский бренд вышел в 2009 году, и представляет концепт кроссовера Quartz, олицетворяющий совершенно новый взгляд на сегмент благодаря сочетанию выразительности внедорожника нового поколения и динамики спортивно-ориентированных моделей PEUGEOT.					</p>
-                                                                            <a href = "/o-kompanii/novosti/kontsept-kar-peugeot-quartz-isklyuchitelnyy-krossover-dlya-ostrykh-oshchushcheniy/" class="more-link more">
-                                                                                Подробнее
-                                                                            </a>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text" id="example_id" name="example_name" value="" />
+                                                                        </div>
+                                                                    </div><!--end row-->
+                                                                </div>
+                                                                <div class="divider img-wrap">
+                                                                    <figure class="figure-styled">
+                                                                        <img src="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/images/divider_service_about.png" alt="" title="" />
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="news-item container-fluid">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <h3 class="title-filter">Год:  </h3>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text" id="example_id1" name="example_name" value="" />
+                                                                        </div>
+                                                                    </div><!--end row-->
+                                                                </div>
+                                                                <div class="divider img-wrap">
+                                                                    <figure class="figure-styled">
+                                                                        <img src="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/images/divider_service_about.png" alt="" title="" />
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="news-item container-fluid">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <h3 class="title-filter">Пробег:  </h3>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text" id="example_id2" name="example_name" value="" />
+                                                                        </div>
+                                                                    </div><!--end row-->
+                                                                </div>
+                                                                <div class="divider img-wrap">
+                                                                    <figure class="figure-styled">
+                                                                        <img src="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/images/divider_service_about.png" alt="" title="" />
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="news-item container-fluid">
+                                                                    <div class="row">
+                                                                        <div class="col-md-4">
+                                                                            <h3 class="title-filter tex-left">Тип КПП:   </h3>
+                                                                        </div>
+                                                                        <div class="col-md-8">
+                                                                            <select class="selectpicker form-control" >
+                                                                                <option>Робот</option>
+                                                                                <option>Робот</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div><!--end row-->
+                                                                </div>
+                                                                <div class="divider img-wrap">
+                                                                    <figure class="figure-styled">
+                                                                        <img src="http://www.peugeot-krasnoyarsk.ru/bitrix/templates/main_template/images/divider_service_about.png" alt="" title="" />
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="news-item container-fluid">
+                                                                    <div class="row">
+                                                                        <div class="col-md-4">
+                                                                            <h3 class="title-filter tex-left">Привод:   </h3>
+                                                                        </div>
+                                                                        <div class="col-md-8">
+                                                                            <select class="selectpicker form-control" >
+                                                                                <option>Передний</option>
+                                                                                <option>Передний</option>
+                                                                            </select>
                                                                         </div>
                                                                     </div><!--end row-->
                                                                 </div>
@@ -500,9 +557,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="more-news">
-                                                                <a href="/o-kompanii/novosti" class="btn btn-styled btn-info btn-info-styled">
-                                                                    Все новости
-                                                                </a>
+                                                                <button class="btn btn-submit"><i class="fa fa-search"></i>Нийти</button>
                                                             </div>
 
                                                         </div><!--end news-wrap--> 
@@ -586,26 +641,41 @@
                                 <script src="js/moment-with-langs.js" type="text/javascript"></script>
                                 <script src="js/bootstrap-select.min.js" type="text/javascript"></script>
                                 <script src="js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
-                                <script src="js/jquery.validate.min.js" type="text/javascript"></script>
-                                <script>
-                                    $("#subscribeForm").validate({
-                                       rules: {
-                                            FIO: "required",
-                                            phone: "required",
-                                        },
-                                        showErrors: function(errorMap, errorList) {
-                                            $( errorList).each(function( index, element ) {
-                                                //console.log(element);
-                                                //var $par = $(element).parents(".form-group");
-                                           });                                            
-                                            $(".error-message").html("Это поле должно быть заполнено");
-                                            $(".error-x").show();
-                                        }
-                                    });
-                                </script>
+                                <script src="js/ion.rangeSlider.min.js" type="text/javascript"></script>
+                                <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+
                                 <script type="text/javascript">
+                                    $('.bxslider').bxSlider({
+                                        pagerCustom: '#bx-pager'
+                                      });
                                     $(function () {
                                         $('.datetimepicker').datetimepicker();
+                                    });
+                                    $("#example_id").ionRangeSlider({
+                                        type: "double",
+                                        min: 340000,
+                                        max: 1950000,
+                                        from: 780000,
+                                        to: 1200000,
+                                        step: 10000,
+                                        grid: true
+                                    });
+                                    $("#example_id1").ionRangeSlider({
+                                        type: "double",
+                                        min: 2001,
+                                        max: 2014,
+                                        from: 2004,
+                                        to: 2009,
+                                        grid: true
+                                    });
+                                    $("#example_id2").ionRangeSlider({
+                                        type: "double",
+                                        min: 10000,
+                                        max: 180000,
+                                        from: 30000,
+                                        to: 120000,
+                                        step: 1000,
+                                        grid: true
                                     });
                                 </script>
                                 <script type="text/javascript">
