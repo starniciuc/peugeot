@@ -371,17 +371,36 @@ div.price span{
 .list-descr li span{
     color: #292936;
 }
-.slider-side ul.bxslider li img{
+.slider-side .slider-for img{
     width: 100%;
+    height: auto;
 }
-.slider-side #bx-pager {
-    text-align: center;
+.slider-side .slider-nav .slick-slide{
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
 }
-.slider-side a {
-    height: 115px;
-    margin-right: 10px;
-    display: inline-block;        
+.slider-side .slider-nav .slick-slide img{
+    width: 100%;
+    height: auto;
 }
-.slider-side a img{
-    height: 100%;
+.slick-prev, .slick-next{
+    display: block;
+    width: 20px;
+    height: 30px;
+    background: url("../img/slider-arrow.png") no-repeat 0 0;
+    
+}
+.slick-prev:hover{
+    background-position: 0px -30px;
+}
+.slick-next:hover{
+    background-position: -20px -30px;
+}
+.slick-prev{
+   left: 0; 
+}
+.slick-next{
+    background-position: -20px 0;
+    right: 0;
 }
